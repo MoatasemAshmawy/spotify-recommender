@@ -2,6 +2,14 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 
 ## Getting Started
 
+### Add a .env.local to the directory containing these secrets
+
+```
+SPOTIFY_CLIENT = "YOUR CLIENT SECRET"
+SPOTIFY_SECRET = "YOUR SPOTIFY SECRET" 
+NEXTAUTH_SECRET = "ANY WORD THAT WILL BE YOUR SECRET"
+```
+
 First, run the development server:
 
 ```bash
